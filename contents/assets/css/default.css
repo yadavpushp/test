@@ -1,0 +1,373 @@
+/*Created with Adobe RoboHelp.*/
+body {
+  font-family: Calibri;
+  font-size: 14px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 19px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 13px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 11px;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+a.expandspot {
+  color: #008000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.expandtext {
+  font-style: italic;
+  font-weight: normal;
+  color: #ff0000;
+}
+a.dropspot {
+  cursor: pointer;
+  color: #008000;
+  font-style: italic;
+  text-decoration: none;
+}
+a.glossterm {
+  color: #800000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.glosstext {
+  font-style: italic;
+  font-weight: normal;
+  color: #0000ff;
+}
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+a.minitoc-caption {
+  text-decoration: none;
+  color: initial;
+  font-weight: bold;
+}
+p.minitoc-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.minitoc-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+ol.minitoc-list ol {
+  list-style: none;
+}
+a {}
+a.minitoc-list-item {}
+div.breadcrumbs {}
+span.breadcrumbs-home-prefix {}
+a.breadcrumbs-home {}
+.breadcrumbs-separator {}
+a.breadcrumbs-link {}
+a.breadcrumbs-topic {}
+p.seealso-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.seealso-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.seealso-list-item {}
+p.reltopics-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.reltopics-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.reltopics-list-item {}
+ul.Disc {
+  list-style-type: disc;
+}
+ul.Circle {
+  list-style-type: circle;
+}
+figure {
+  margin-left: 0 px;
+}
+:root {
+  --thickhdrevenrows-theme-color: #666666;
+  --thickhdrevenrows-row-color: rgba(102, 102, 102, 0.5);
+  --thickhdr-theme-color: rgba(244, 176, 131, 1);
+  --thickhdr-brdr-color: rgba(244, 176, 131, 0.5);
+  --noborder-theme-color: #ed7d31;
+  --firstcolrow-theme-color: rgb(237, 125, 49);
+  --firstcolrow-even-row: rgba(237, 125, 49, 0.5);
+  --firstcolrow-odd-row: rgba(237, 125, 49, 0.25);
+}
+table.thickhdrevenrows {
+  border-collapse: collapse;
+}
+table.thickhdrevenrows tr:first-child {
+  border-width: 3px;
+  border-style: solid;
+  border-color: var(--thickhdrevenrows-theme-color);
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+table.thickhdrevenrows td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--thickhdrevenrows-theme-color);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+table.thickhdrevenrows tr:nth-child(even) td {
+  background-color: var(--thickhdrevenrows-row-color);
+}
+table.thickhdrevenrows tr:first-child td {
+  text-align: center;
+}
+table.thickhdr {
+  border-collapse: collapse;
+}
+table.thickhdr td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--thickhdr-brdr-color);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+table.thickhdr tr:first-child {
+  border-width: 3px;
+  border-style: solid;
+  border-color: var(--thickhdr-theme-color);
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+}
+table.noborder {
+  border-collapse: collapse;
+}
+table.noborder td {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--noborder-theme-color);
+  border-left: 0;
+  border-top: 0;
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  vertical-align: center;
+}
+table.noborder tr:first-child td {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-top: 0;
+  border-left: 0;
+  background-color: var(--noborder-theme-color);
+  color: #FFFFFF;
+  border-bottom: 0;
+}
+table.noborder tr:last-child td {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--noborder-theme-color);
+  border-left: 0;
+  border-bottom: 0;
+}
+table.noborder tr td:last-child {
+  border-right: 0;
+}
+ol.AlphaNumeric {
+  list-style: decimal;
+}
+ol.AlphaNumeric>li>ol {
+  list-style: lower-alpha;
+}
+ol.AlphaNumeric>li>ol>li>ol {
+  list-style: lower-roman;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item4;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item4;
+  content: "("counter(item4, decimal)")";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol {
+  list-style: none;
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item5;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item5;
+  content: "("counter(item5, lower-alpha)")";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol {
+  list-style: none;
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item6;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol>li:before {
+  counter-increment: item6;
+  content: "("counter(item6, lower-roman)")";
+  text-align: right;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+}
+ol.AlphaNumeric>li>ol>li>ol>li>ol>li>ol>li>ol>li {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+}
+ol.RoundNumbers {
+  --prefix-size: 25px;
+  --prefix-fixed-size: true;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  counter-reset: item1;
+  list-style: none;
+  padding-left: var(--prefix-size);
+  margin-left: calc(var(--list-indent) - var(--prefix-size));
+}
+ol.RoundNumbers>li {
+  --prefix-size: 25px;
+  --prefix-fixed-size: true;
+  --prefix-gap: 4px;
+  --list-indent: 40px;
+  position: relative;
+  line-height: var(--prefix-size);
+  margin-bottom: 2px;
+}
+ol.RoundNumbers>li:before {
+  counter-increment: item1;
+  content: counter(item1, decimal);
+  text-align: center;
+  position: absolute;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+  overflow: hidden;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: #000000;
+  color: #FFFFFF;
+  height: var(--prefix-size);
+  line-height: var(--prefix-size);
+}
+ul.Square {
+  list-style: square;
+}
+table.firstcolrow {
+  border-collapse: collapse;
+}
+table.firstcolrow td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+table.firstcolrow tr:nth-child(even) td {
+  background-color: var(--firstcolrow-even-row);
+}
+table.firstcolrow tr:nth-child(odd) td {
+  background-color: var(--firstcolrow-odd-row);
+}
+table.firstcolrow tr:first-child td {
+  background-color: var(--firstcolrow-theme-color);
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+}
+table.firstcolrow tr td:first-child {
+  background-color: var(--firstcolrow-theme-color);
+  color: #FFFFFF;
+  font-weight: bold;
+}

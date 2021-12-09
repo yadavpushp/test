@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>        
+
+<glossgroup id="Default">          
+<title>Glossary Definitions</title>        
+<glossentry id="Default_Adobe">
+<glossterm>Adobe</glossterm>
+<glossdef>A software company</glossdef></glossentry>
+<glossentry id="Default_Photoshop">
+<glossterm>Photoshop</glossterm>
+<glossdef>Image editing app</glossdef></glossentry>
+<glossentry id="Default_Tutorial">
+<glossterm>Tutorial</glossterm>
+<glossdef>Teaches how to do something</glossdef></glossentry>
+<glossentry id="Default_Zoom">
+<glossterm>Zoom</glossterm>
+<glossdef>Increasing the size</glossdef></glossentry></glossgroup>

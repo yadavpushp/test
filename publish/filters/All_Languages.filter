@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>    
+<filter displayname="Select the options" multiple="yes" withingroup="yes">    
+<group displayname="global" name="global"></group>
+<group displayname="Audience" name="Audience">
+<condition name="Audience" value="Eng" displayname="Eng" default="no"></condition>
+<condition name="Audience" value="Hin" displayname="Hin" default="no"></condition>
+<condition name="Audience" value="Jap" displayname="Jap" default="no"></condition></group></filter>
